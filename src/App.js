@@ -1,11 +1,24 @@
 import React, { Component } from 'react';
 
-function App() {
+// class App extends Component{
+//   render(){
+//     return <h1>Hello World!</h1>
+//   }
+// }
+
+const App = () => {
   return (
-    <div>
-      <p>Hello World</p>
-    </div>
-  );
+  <div>
+    <Cat />
+    <Cat />
+    <Cat />
+    <Cat />
+  </div>
+  )
+}
+
+const Cat = () => {
+  return <div>Meow!</div>
 }
 
 export default App;
