@@ -1,0 +1,90 @@
+{
+    //---------------------------------------------
+    // VSCode設定
+    //---------------------------------------------
+    // エクスプローラの表示除外設定
+    "files.exclude": {
+      "**/.DS_Store": true
+    },
+    // 検索除外設定
+    "search.exclude": {
+      "**/node_modules": true,
+      "build": true,
+      "package-lock.json": true,
+      "yarn.lock": true,
+      ".idea": true
+    },
+    // 最終行に空行追加
+    "files.insertFinalNewline": true,
+    // インデントのカラー表示
+    "editor.highlightActiveIndentGuide": true,
+    // 制御文字を表示
+    "editor.renderControlCharacters": true,
+    // エディタレイアウトの保持
+    "workbench.editor.closeEmptyGroups": true,
+    // ファイル表示時にタブを上書き表示しないようにする
+    "workbench.editor.enablePreview": false,
+    // パンくずを表示
+    "breadcrumbs.enabled": true,
+    // 書式設定無しでテキストをコピー
+    "editor.copyWithSyntaxHighlighting": false,
+    // 整形はPrettierに任せるので標準の整形は無効化
+    "javascript.format.enable": false,
+    // prettierをデフォルトフォーマッターに設定
+    // https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode#default-formatter
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // .js 設定
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      // Save Action
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    },
+    // .jsx 設定
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      // Save Action
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    },
+    // .ts 設定
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      // Save Action
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    },
+    // .tsx 設定
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      // Save Action
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    },
+    // .json 設定
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      // Save Action
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    },
+    // .jsonc 設定
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      // Save Action
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      }
+    }
+  }
